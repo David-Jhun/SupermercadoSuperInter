@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="37.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="labelClock" text="Reloj">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <BorderPane fx:id="mainPanel" prefHeight="361.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Add">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#addAClient" text="Add a Client." />
+                        <MenuItem mnemonicParsing="false" onAction="#addAProvider" text="Add a provider." />
+                        <MenuItem mnemonicParsing="false" onAction="#addAManager" text="Add a management" />
+                        <MenuItem mnemonicParsing="false" onAction="#addACandidate" text="Add a candidate." />
+                        <MenuItem mnemonicParsing="false" onAction="#addALaptop" text="Add a laptop" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Show">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#showChart1" text="Show chart 1" />
+                        <MenuItem mnemonicParsing="false" onAction="#showChart2" text="Show chart 2" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Load">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#loadClients" text="Load Clients" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Search a product">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#searchALaptop" text="Search a laptop." />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Generate">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#generateALaptopReport" text="Generate a laptop report" />
+                    </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </top>
+      </BorderPane>
+   </children>
+</VBox>
