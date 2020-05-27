@@ -23,24 +23,6 @@ public class Main extends Application{
 	public Main() {
 		supermarket = new Supermarket();
 		controller = new UniversalController(supermarket);
-		try {
-			supermarket.loadFiles();
-		}catch( FileNotFoundException e ) {
-			Alert alert = new Alert(AlertType.ERROR);
-			alert.setHeaderText("" + e.getClass());
-			alert.setContentText(e.getMessage());
-			alert.show();
-		}catch( IOException e ) {
-			Alert alert = new Alert(AlertType.ERROR);
-			alert.setHeaderText("" + e.getClass());
-			alert.setContentText(e.getMessage());
-			alert.show();
-		}catch( ClassNotFoundException e ) {
-			Alert alert = new Alert(AlertType.ERROR);
-			alert.setHeaderText("" + e.getClass());
-			alert.setContentText(e.getMessage());
-			alert.show();
-		}
 	}
 
 	@Override
