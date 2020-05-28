@@ -10,13 +10,16 @@ ___
 ### Content.
 1. **Analysis.**
 In this part you will find the documentation related to the analysis stage.
-[Statement](./Documents/Analysis/Primera entrega.pdf).
+[Statement](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Analysis).
 ___
 2. **Design.**
 In this part you will find the documentation related to the design stage.
-[Requirements](./Documents/Design/Supermarket diagram.pdf).
+[Requirements](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Design).
 ___
 3. **Video.**
 In this part you will find a video that explain some funtionalities of the program.
 **Link to the video:** [Video]().
+___
+#### By ProgramaciónATS.
+> Si puedes soñarlo, puedes programarlo...
 ___
