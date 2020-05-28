@@ -10,11 +10,11 @@ ___
 ### Content.
 1. **Analysis.**
 In this part you will find the documentation related to the analysis stage.
-[Statement](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Analysis).
+[Statement and requirements](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Analysis).
 ___
 2. **Design.**
 In this part you will find the documentation related to the design stage.
-[Requirements](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Design).
+[Diagram class](https://github.com/David-Jhun/SupermercadoSuperInter/tree/master/Documents/Design).
 ___
 3. **Video.**
 In this part you will find a video that explain some funtionalities of the program.
