@@ -18,7 +18,7 @@ In this part you will find the documentation related to the design stage.
 ___
 3. **Video.**
 In this part you will find a video that explain some funtionalities of the program.
-**Link to the video:** [Video]().
+**Link to the video:** [Video](https://youtu.be/CiBC9LMZ888).
 ___
 #### By ProgramaciónATS.
 > Si puedes soñarlo, puedes programarlo...
